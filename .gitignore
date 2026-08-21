@@ -1,0 +1,26 @@
+# Operating-system and editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Python environments and bytecode
+**/__pycache__/
+*.py[cod]
+**/.venv/
+
+# Generated build and simulation outputs
+**/build/
+**/.Xil/
+**/*.runs/
+**/*.sim/
+**/*.cache/
+*.jou
+*.log
+*.out
+*.str
+*.wdb
+
+# Local scratch data and generated test logs
+tmp/
+hardware/scale-up-PIFO-hw/LB/temp.txt
